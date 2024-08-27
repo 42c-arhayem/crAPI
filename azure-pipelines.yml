@@ -17,3 +17,11 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+- task: APISecurityScanFreemium@1
+  inputs:
+    sarifReport: 'test'
+    exportAsPDF: 'true'
+    scanReport: 'yeterw'
+    apiCredential: 'wewewesds'
+    apiDefinition: 'adawdawdawda'
+    targetURL: 'dawdawdaw'
